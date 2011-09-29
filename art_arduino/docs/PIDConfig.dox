@@ -14,4 +14,13 @@ Reads and maintains the following parameters on the ROS server
 - \b "~paltitude" : \b [double]  min: -10.0, default: 0.0, max: 10.0
 - \b "~ialtitude" : \b [double]  min: -10.0, default: 0.0, max: 10.0
 - \b "~daltitude" : \b [double]  min: -10.0, default: 0.0, max: 10.0
+- \b "~pxpose" : \b [double]  min: -10.0, default: 0.0, max: 10.0
+- \b "~ixpose" : \b [double]  min: -10.0, default: 0.0, max: 10.0
+- \b "~dxpose" : \b [double]  min: -10.0, default: 0.0, max: 10.0
+- \b "~pypose" : \b [double]  min: -10.0, default: 0.0, max: 10.0
+- \b "~iypose" : \b [double]  min: -10.0, default: 0.0, max: 10.0
+- \b "~dypose" : \b [double]  min: -10.0, default: 0.0, max: 10.0
+- \b "~pthetapose" : \b [double]  min: -10.0, default: 0.0, max: 10.0
+- \b "~ithetapose" : \b [double]  min: -10.0, default: 0.0, max: 10.0
+- \b "~dthetapose" : \b [double]  min: -10.0, default: 0.0, max: 10.0
 

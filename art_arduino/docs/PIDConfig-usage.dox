@@ -13,6 +13,15 @@
   <param name="paltitude" type="double" value="0.0" />
   <param name="ialtitude" type="double" value="0.0" />
   <param name="daltitude" type="double" value="0.0" />
+  <param name="pxpose" type="double" value="0.0" />
+  <param name="ixpose" type="double" value="0.0" />
+  <param name="dxpose" type="double" value="0.0" />
+  <param name="pypose" type="double" value="0.0" />
+  <param name="iypose" type="double" value="0.0" />
+  <param name="dypose" type="double" value="0.0" />
+  <param name="pthetapose" type="double" value="0.0" />
+  <param name="ithetapose" type="double" value="0.0" />
+  <param name="dthetapose" type="double" value="0.0" />
 </node>
 \endverbatim
 

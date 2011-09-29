@@ -136,11 +136,11 @@ namespace art_kinect
 				count_skip = 0;
 				msg_pub.stamp = msg_image->header.stamp; /// TODO
 				msg_image->image->fillGrayscale(320, 240, &mat_image.data[0], 320);
-				msg_depth->depth->fillDepthImageRaw(320, 240, (short*) &mat_depth.data[0], 640);
+				msg_depth->depth->fillDepthImageRaw(320, 240, (unsigned short*) &mat_depth.data[0], 640);
 				cv::imencode(encode_format, mat_image, msg_pub.image, encode_params);
 				cv::imencode(encode_format, mat_depth, msg_pub.depth, encode_params);
 				pub.publish(msg_pub);
-				count_skip == 0;
+				count_skip = 0;
 			}
 			count_skip ++;
 		}

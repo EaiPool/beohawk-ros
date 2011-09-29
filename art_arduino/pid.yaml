@@ -1,3 +1,4 @@
-{daltitude: 0.90000000000000002, dpitch: 1.5, droll: 2.8000000000000007, dyaw: 0.0,
-  ialtitude: 0.80000000000000004, ipitch: 3.0, iroll: 5.0, iyaw: 0.0, paltitude: 0.90000000000000002,
-  ppitch: 1.5, proll: 1.5, pyaw: 2.0}
+{daltitude: 0.0, dpitch: 2.0, droll: 4.0, dthetapose: 2.0, dxpose: 0.0, dyaw: 0.0,
+  dypose: 0.0, ialtitude: 0.0, ipitch: 0.0, iroll: 0.0, ithetapose: 0.0, ixpose: 0.0,
+  iyaw: 2.0, iypose: 0.0, paltitude: 2.0, ppitch: 2.0, proll: -0.5999999999999996,
+  pthetapose: 2.0, pxpose: 4.0, pyaw: 4.0, pypose: 2.0}

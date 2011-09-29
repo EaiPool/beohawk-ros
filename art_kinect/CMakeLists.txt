@@ -21,8 +21,11 @@ rosbuild_genmsg()
 #uncomment if you have defined services
 #rosbuild_gensrv()
 
+find_package(OpenCV REQUIRED)
+
 #common commands for building c++ executables and libraries
 rosbuild_add_library(art_kinect src/kinect_pub.cpp src/kinect_sub.cpp)
+target_link_libraries(art_kinect ${OpenCV_LIBS})
 #target_link_libraries(${PROJECT_NAME} another_library)
 #rosbuild_add_boost_directories()
 #rosbuild_link_boost(${PROJECT_NAME} thread)

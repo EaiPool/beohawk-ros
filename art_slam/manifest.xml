@@ -19,6 +19,8 @@
   <export>
     <nodelet plugin="${prefix}/nodelet.xml" />
   </export>
+  
+  <rosdep name="opencv2.3"/>
 </package>
 
 
